@@ -16,9 +16,10 @@ public class Tutorial8DoWhile {
 		System.out.println("Gotcha");
 		// We can write this method even more simpler by using Do while that written
 		// below
+		DoWhile();
 	}
 
-	public static void DOWhile() {
+	public static void DoWhile() {
 		int value;
 		Scanner s = new Scanner(System.in);
 
