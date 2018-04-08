@@ -11,6 +11,7 @@ public class Tutorial10Arrays {
 		System.out.println(values[0] +values[1] +values[2]);
 		System.out.println(values[1] +values[2]);
 		System.out.println(values[2]);
+		System.out.println(value);
 
 		values[0] = 5;
 		values[1] = 55;
