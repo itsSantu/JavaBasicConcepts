@@ -13,9 +13,9 @@ public class Tutorial15GettersAndReturn {
 		 
 		int r = demo.returnMethod();
 		System.out.println(r);
-		
-		
-		
+	
+	int	age = demo.getAge();
+	System.out.println("age" +age);
 	}
 }
 
@@ -37,4 +37,24 @@ class DemoClass2 {
 	return yearsleft;
 }
 
+   int getAge()
+   {
+	   
+	   return age;
+   }
+   
+   String getName()
+   {
+	return name;
+	 
+   }
+   
+   String relation()
+   {
+	   return relation;
+   }
+   
+   String status() {
+	   return status;
+   }
 }
