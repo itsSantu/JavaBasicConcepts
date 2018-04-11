@@ -24,13 +24,6 @@ package com.javabasic.concepts;
 	 
  }
 
-
-
-
-
-
-
-
 public class Tutorial17SettersAndThis {
 public String name = "you";
 	public static void main(String[] args) {
