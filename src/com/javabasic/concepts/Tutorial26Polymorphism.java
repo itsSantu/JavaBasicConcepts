@@ -14,9 +14,13 @@ public class Tutorial26Polymorphism {
 	
 		//p2.shedleaves();  will not work since type of the ref i,e class name here is Plants so
 	
-		
+		doGrow(p);
 		
 	}
 
+	public static void doGrow(Tutorial26PolymorphismPlants plant)
+	{
+		plant.grow();
+	}
 }
 
